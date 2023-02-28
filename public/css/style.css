@@ -42,3 +42,7 @@ main {
 .sheet-links li {
     margin: 5px 0;
 }
+
+.container h1 {
+    text-decoration: underline;
+}
