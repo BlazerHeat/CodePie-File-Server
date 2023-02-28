@@ -1,0 +1,44 @@
+.sidebar {
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#logo_img {
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+main {
+    margin-left: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    padding: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card a {
+    margin-top: auto;
+}
+
+.sheet-links li {
+    margin: 5px 0;
+}
