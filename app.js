@@ -16,7 +16,7 @@ const PORT = 80;
 
 
 app.get('/', (req, res) => {
-    res.status(200).render('index', { page: 'softwares' });
+    res.status(200).render('softwares', { page: 'softwares' });
 });
 
 app.get('/sheets', (req, res) => {
